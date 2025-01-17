@@ -1,0 +1,51 @@
+.about-page {
+  padding: 2rem 0;
+}
+
+.about-page h1, .about-page h2 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about-page h1 .fa-utensils,
+.about-page h2 .fa-image,
+.about-page h2 .fa-users {
+  color: #007bff;
+}
+
+.about-page p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+}
+
+.team-images {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.team-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain; /* Ensures the entire image fits within the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+
+.team-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .team-image {
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
