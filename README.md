@@ -1,6 +1,6 @@
 # Restaurant Management System  
 
-A web application for managing a restaurant's operations, offering distinct functionalities for clients and administrators. Built using **Laravel** (backend) and **React** (frontend), this project focuses on seamless interaction between customers and the restaurant while simplifying administrative tasks.  
+A web application for managing a restaurant's operations. Built using **Laravel** (backend) and **React** (frontend).
 
 ---  
 
